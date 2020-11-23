@@ -1,0 +1,458 @@
+/*ВКЛАДКИ*/
+.tabs {
+  justify-content: space-evenly;
+  height: 120px;
+  padding: 11px 30px;
+}
+
+.tabs_btn {
+  height: 100%;
+  width: 190px;
+  border: none;
+  border-bottom: 2px solid #1c1c1c;
+  outline: none;
+  cursor: pointer;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  font-family: 'Header_Font', serif;
+  font-size: 18px;
+  background-color: transparent;
+  color: #fff;
+}
+
+.tabs_btn_color {
+  border-bottom-color: #8e8e8e;
+}
+
+
+
+/*ПРАЙС*/
+.price {
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+.price_reportage,
+.price_individual {
+  padding-top: 25px;
+}
+
+  .gallery {
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .img_gallery_reportage {
+    margin: 3px 0;
+    flex-basis: 19%;
+  }
+
+.price_container {
+  padding: 50px 10px 0 30px;
+}
+
+.heading_h3 {
+  display: inline-block;
+  margin-right: 30px;
+  font-family: "Header_Font", serif;
+  font-size: 32px;
+}
+
+.price_paragraf {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.list_paragraf {
+  list-style: circle;
+  list-style-position: inside;
+  padding-left: 190px;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.price_exposition {
+  padding: 20px 0 0 170px;
+}
+
+.price_hidden {
+  display: none;
+}
+
+
+/*ОБО МНЕ*/
+.heading_h2 {
+  margin: 100px auto;
+  padding: 5px 0;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  font-family: "Header_Font", serif;
+  font-size: 30px;
+}
+
+.about_me_heading {
+  margin-top: 140px;
+}
+
+.about_me {
+  width: 100%;
+  height: 900px;
+  background-image: url('../img/aboutme1x.png');
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.about_me_shadow {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+.about_me_fon {
+  width: 50%;
+  height: 100%;
+  padding: 80px 80px 0;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.about_me_no_fon {
+  width: 50%;
+  height: 100%;
+}
+
+.about_me_text {
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+
+/*обо мне - чеклист*/
+.checklist__open {
+  cursor: pointer;
+  border-bottom: 1px solid #000;
+}
+.checklist__open:hover {
+  color: #fff;
+  border-color: #fff;
+}
+.checklist_text {
+  margin-bottom: 25px;
+  list-style: circle;
+}
+.checklist__close {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 1px solid #000;
+}
+.checklist__close:hover {
+  color: #fff;
+  border-color: #fff;
+  background-color: #000;
+}
+
+
+
+/*обо мне - мобильная версия*/
+.about_me_mobile {
+  display: none;
+  width: 100%;
+  height: 400px;
+  background-image: url('../img/aboutme0_33x.png');
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+.about_me_shadow_mobile {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2));
+}
+.about_me_fon_mobile {
+  display: none;
+  padding: 40px 50px 0;
+}
+/* .about_me_text_mobile {
+  margin: 15px 0;
+  color: #fff;
+} */
+
+
+/*КОНТАКТЫ*/
+.contacts {
+  text-align: center;
+  color: #fff;
+}
+
+.contacts_heading {
+  margin-bottom: 50px;
+}
+
+.contacts_social {
+  color: #5a5653;
+}
+
+.contacts_social_item {
+  display: inline-block;
+  margin-right: 35px;
+  font-size: 62px;
+}
+
+.contacts_phone,
+.contacts_email {
+  margin: 40px auto;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+
+
+/*ОТЗЫВЫ*/
+
+.reviews {
+  margin-bottom: 50px;
+}
+
+.reviews_gallery {
+  overflow-x: scroll;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.reviews_img {
+  height: 400px;
+  margin-right: 50px;
+  margin-bottom: 7px;
+}
+
+
+/*SCROLLBAR*/
+::-webkit-scrollbar-button {
+background-image:url('');
+background-repeat:no-repeat;
+width: 5px;
+height: 0px;
+}
+
+::-webkit-scrollbar-track {
+background-color:#000000;
+}
+
+::-webkit-scrollbar-thumb {
+-webkit-border-radius: 7px;
+border-radius: 7px;
+background-color: #0d0c0c;
+}
+
+::-webkit-scrollbar-thumb:hover{
+background-color: #111111;
+}
+
+::-webkit-resizer{
+background-image:url('');
+background-repeat:no-repeat;
+width: 5px;
+height: 0px;
+}
+
+::-webkit-scrollbar{
+width: 5px;
+}
+
+
+
+
+@media screen and (max-width: 1700px) {
+  .about_me_fon {
+    padding: 50px 40px 0;
+  }
+}
+@media screen and (max-width: 1550px) {
+  .about_me_text {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  /*прайс*/
+  .price_paragraf_individual {
+    display: block;
+    padding-left: 0;
+  }
+  .list_paragraf_individual {
+    padding-left: 40px;
+  }
+  /*обо мне*/
+  .heading_h2 {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .about_me {
+    height: 768px;
+    background-image: url('../img/aboutme0_75x.png');
+    background-position: 90% 0%;
+  }
+  .about_me_fon {
+    width: 60%;
+  }
+  .about_me_text {
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  /*обо мне*/
+  .about_me {
+    height: 400px;
+    background-image: url('../img/aboutme0_33x.png');
+  }
+  .about_me {
+    display: none;
+  }
+  .about_me_text {
+    margin: 15px 0;
+    color: #fff;
+  }
+  .about_me_mobile,
+  .about_me_fon_mobile {
+    display: block;
+  }
+  /*обо мне - чеклист*/
+  .checklist__container {
+    padding-top: 15px;
+    color: #fff;
+  }
+  .checklist__open {
+    padding: 10px 20px;
+    border: 1px solid #fff;
+  }
+  .checklist__open:hover {
+    color: #000;
+    background-color: #fff;
+  }
+  .checklist__close {
+    border: 1px solid #fff;
+  }
+  .checklist__close:hover {
+    color: #000;
+    background-color: #fff;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /*прайс*/
+  .img_gallery_reportage {
+    flex-basis: 31%;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  /*вкладки*/
+  .tabs_btn {
+    width: 140px;
+    font-size: 15px;
+  }
+  /*прайс*/
+  .gallery {
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+  .img_gallery_reportage {
+    margin-right: 10px;
+    min-width: 75%;
+  }
+  .heading_h3 {
+    margin-right: 20px;
+    font-size: 28px;
+  }
+  .price_paragraf {
+    font-size: 19px;
+  }
+  .list_paragraf {
+    font-size: 17px;
+  }
+  .price_exposition {
+    padding: 20px 0 0 0;
+  }
+  /*обо мне*/
+  .heading_h2 {
+    margin-bottom: 50px;
+  }
+  .about_me_heading {
+    margin-top: 100px;
+  }
+  /*контакты*/
+  .contacts_social_item {
+    margin-right: 25px;
+    font-size: 42px;
+  }
+  .contacts_phone,
+  .contacts_email {
+    margin: 30px auto;
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /*обо мне*/
+  .about_me_fon_mobile {
+    padding: 20px 30px 0;
+  }
+  .about_me_text,
+  .checklist__container {
+    font-size: 14px;
+  }
+  /*отзывы*/
+  .reviews_img {
+    height: 300px;
+    margin-right: 35px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  /*вкладки*/
+  .tabs_btn {
+    width: 120px;
+    height: 70%;
+    font-size: 12px;
+  }
+  /*прайс*/
+  .price_container {
+    padding: 30px 30px 10px;
+  }
+  .heading_h3 {
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 34px;
+  }
+  .price_paragraf {
+    font-size: 21px;
+  }
+  .list_paragraf {
+    padding-left: 40px;
+  }
+  /*обо мне - чек-лист*/
+  .checklist__open {
+    font-size: 13px;
+  }
+  /*контакты*/
+  .contacts_social_item {
+    margin-right: 8px;
+    margin-left: 8px;
+    font-size: 42px;
+  }
+  .contacts_phone,
+  .contacts_email {
+    margin: 30px auto;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /*обо мне*/
+  .heading_h2 {
+    margin: 90px 0 50px;
+    padding: 0 20px;
+  }
+}
